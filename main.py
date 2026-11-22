@@ -173,6 +173,10 @@ class Game:
             center=(WIDTH // 2, HEIGHT // 2)
         )
         self.draw_text(
+            f"SCORE: {self.score}", self.font, WHITE,
+            center=(WIDTH // 2, HEIGHT // 2 + 60)
+        )
+        self.draw_text(
             f"HIGH SCORE: {self.high_score}", self.font, YELLOW,
             center=(WIDTH // 2, HEIGHT // 2 + 100)
         )
